@@ -1,0 +1,19 @@
+[project]
+name = "rok-equip-app"
+version = "0.1.0"
+description = "A ROK app to track your equipment"
+authors = [
+    {name = "caroisecarois"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit (>=1.50.0,<2.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
