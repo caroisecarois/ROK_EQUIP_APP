@@ -208,3 +208,6 @@ __marimo__/
 
 #Streamlit
 .streamlit/
+
+#VS code
+.vscode/
